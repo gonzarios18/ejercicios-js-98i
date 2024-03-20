@@ -17,4 +17,4 @@ if (primerNumero < segundoNumero) {
 
 } else {
     alert("Los numeros son iguales");
-}ñ
+}
