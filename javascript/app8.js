@@ -6,17 +6,9 @@ input: 15
 Output: El 10 es divisible por 2.
 Output: El 15 no es divisible por 2.
 */
-let primernumero = Number
-primernumero= prompt("Ingrese un numero");
-if (primernumero % 2 == 0) {
-    alert("El numero "+primernumero+ " es divisible en 2" )
-} else {
-   alert("El numero "+ primernumero +" no es divisible en 2");
-}
-let segundonumero = Number
- segundonumero = prompt("Por favor ingrese otro numero");
-if(segundonumero % 2 === 0) {
+let primerNumero= Number(prompt("Ingrese un numero"));
+if(primerNumero % 2 === 0){
     alert("El numero es divisible en 2")
 } else {
- alert("El numero "+ segundonumero + " no es divisible en 2");
+    alert("El numero no es divisible en 2")
 }
